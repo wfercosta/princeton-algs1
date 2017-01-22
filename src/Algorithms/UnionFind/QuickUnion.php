@@ -35,7 +35,7 @@ class QuickUnion extends UnionFindAbstract
     /**
      * {@inheritdoc}
      */
-    public function connected(int $p, int $q): boolean
+    public function connected(int $p, int $q): bool
     {
         // TODO: Implement connected() method.
     }
