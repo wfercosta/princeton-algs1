@@ -2,8 +2,12 @@
 
 namespace Algorithms\UnionFind;
 
-class WeightedQuickUnion extends UnionFindAbstract
+use Utils\Generator;
+
+class WeightedQuickUnion extends QuickUnion
 {
+
+    protected $size = array();
 
     /**
      * Constructor.
@@ -12,6 +16,11 @@ class WeightedQuickUnion extends UnionFindAbstract
      */
     public function __construct(int $n)
     {
+
+        foreach (Generator::range(0, $n) as $value) {
+            $this->size[$value] = 1;
+        }
+
         parent::__construct($n);
     }
 
@@ -20,23 +29,21 @@ class WeightedQuickUnion extends UnionFindAbstract
      */
     public function union(int $p, int $q)
     {
-        // TODO: Implement union() method.
-    }
+        $rootP = $this->find($p);
+        $rootQ = $this->find($q);
 
-    /**
-     * {@inheritdoc}
-     */
-    public function find(int $p): int
-    {
-        // TODO: Implement find() method.
-    }
+        if ($rootP === $rootQ)
+            return;
 
-    /**
-     * {@inheritdoc}
-     */
-    public function connected(int $p, int $q): bool
-    {
-        // TODO: Implement connected() method.
+        if ($this->size[$rootP] < $this->size[$rootQ]) {
+            $this->ids[$rootP] = $rootQ;
+            $this->size[$rootQ] += $this->size[$rootP];
+        } else {
+            $this->ids[$rootQ] = $rootP;
+            $this->size[$rootP] += $this->size[$rootQ];
+        }
+
+        $this->count --;
     }
 
 }

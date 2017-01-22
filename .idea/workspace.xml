@@ -19,11 +19,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="QuickUnion.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="QuickUnion.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Algorithms/UnionFind/QuickUnion.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state relative-caret-position="265">
+              <caret line="50" column="5" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="50" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WeightedQuickUnion.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Algorithms/UnionFind/WeightedQuickUnion.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -32,8 +42,8 @@
       <file leaf-file-name="QuickUnionTest.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/QuickUnionTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+            <state relative-caret-position="231">
+              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="37" selection-end-column="5" />
               <folding>
                 <element signature="e#7#43#0#PHP" expanded="true" />
               </folding>
@@ -41,15 +51,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QuickFindTest.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="WeightedQuickUnionTest.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/WeightedQuickUnionTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-687">
+              <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QuickFindTest.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/QuickFindTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="37" column="7" lean-forward="false" selection-start-line="29" selection-start-column="6" selection-end-line="37" selection-end-column="7" />
+            <state relative-caret-position="435">
+              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="37" selection-end-column="5" />
               <folding>
                 <element signature="e#7#38#0#PHP" expanded="true" />
-                <marker date="1485105350000" expanded="true" signature="785:847" ph=" Performs the test for Medium file data mass. ..." />
-                <marker date="1485105350000" expanded="true" signature="885:1105" ph="..." />
               </folding>
             </state>
           </provider>
@@ -85,14 +103,14 @@
         <option value="$PROJECT_DIR$/src/Utils/FileReader.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/src/Algorithms/UnionFind/Wander.php" />
-        <option value="$PROJECT_DIR$/tests/WeightedQuickUnionTest.php" />
         <option value="$PROJECT_DIR$/src/Utils/Generator.php" />
         <option value="$PROJECT_DIR$/src/Algorithms/UnionFind/QuickFind.php" />
-        <option value="$PROJECT_DIR$/src/Algorithms/UnionFind/WeightedQuickUnion.php" />
         <option value="$PROJECT_DIR$/src/Algorithms/UnionFind/UnionFindAbstract.php" />
         <option value="$PROJECT_DIR$/src/Algorithms/UnionFind/QuickUnion.php" />
-        <option value="$PROJECT_DIR$/tests/QuickFindTest.php" />
+        <option value="$PROJECT_DIR$/src/Algorithms/UnionFind/WeightedQuickUnion.php" />
+        <option value="$PROJECT_DIR$/tests/WeightedQuickUnionTest.php" />
         <option value="$PROJECT_DIR$/tests/QuickUnionTest.php" />
+        <option value="$PROJECT_DIR$/tests/QuickFindTest.php" />
       </list>
     </option>
   </component>
@@ -205,10 +223,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Utils" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -344,17 +358,11 @@
       <option name="presentableId" value="Default" />
       <updated>1485082854238</updated>
       <workItem from="1485082855853" duration="1271000" />
-      <workItem from="1485091416655" duration="13324000" />
+      <workItem from="1485091416655" duration="14661000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Run_tests - 2017.01.22 at 14h 38m 26s.xml">
-      <configuration name="Run tests" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Run_tests - 2017.01.22 at 14h 38m 43s.xml">
-      <configuration name="Run tests" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
     <history-entry file="Run_tests - 2017.01.22 at 14h 40m 55s.xml">
       <configuration name="Run tests" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
@@ -379,13 +387,19 @@
     <history-entry file="Run_tests - 2017.01.22 at 15h 20m 15s.xml">
       <configuration name="Run tests" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
+    <history-entry file="Run_tests - 2017.01.22 at 15h 31m 10s.xml">
+      <configuration name="Run tests" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Run_tests - 2017.01.22 at 15h 32m 06s.xml">
+      <configuration name="Run tests" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14595000" />
+    <option name="totallyTimeSpent" value="15932000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="733" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2536349" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -393,7 +407,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.503231" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32917318" sideWeight="0.49676898" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="1.0" sideWeight="0.49676898" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34165367" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -536,22 +550,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/WeightedQuickUnionTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algorithms/UnionFind/WeightedQuickUnion.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="36" column="51" lean-forward="false" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Algorithms/UnionFind/QuickFind.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -560,33 +558,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/QuickFindTest.php">
+    <entry file="file://$PROJECT_DIR$/src/Algorithms/UnionFind/QuickUnion.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="37" column="7" lean-forward="false" selection-start-line="29" selection-start-column="6" selection-end-line="37" selection-end-column="7" />
-          <folding>
-            <element signature="e#7#38#0#PHP" expanded="true" />
-            <marker date="1485105350000" expanded="true" signature="785:847" ph=" Performs the test for Medium file data mass. ..." />
-            <marker date="1485105350000" expanded="true" signature="885:1105" ph="..." />
-          </folding>
+        <state relative-caret-position="265">
+          <caret line="50" column="5" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="50" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algorithms/UnionFind/WeightedQuickUnion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/WeightedQuickUnionTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-687">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/QuickUnionTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        <state relative-caret-position="231">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="37" selection-end-column="5" />
           <folding>
             <element signature="e#7#43#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algorithms/UnionFind/QuickUnion.php">
+    <entry file="file://$PROJECT_DIR$/tests/QuickFindTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="435">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <element signature="e#7#38#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
