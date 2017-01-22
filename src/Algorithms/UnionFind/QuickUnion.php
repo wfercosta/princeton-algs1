@@ -21,7 +21,14 @@ class QuickUnion extends UnionFindAbstract
      */
     public function union(int $p, int $q)
     {
-        // TODO: Implement union() method.
+        $rootP = $this->find($p);
+        $rootQ = $this->find($q);
+
+        if ($rootP === $rootQ)
+            return;
+
+        $this->ids[$rootP] = $rootQ;
+        $this->count --;
     }
 
     /**
@@ -29,7 +36,10 @@ class QuickUnion extends UnionFindAbstract
      */
     public function find(int $p): int
     {
-        // TODO: Implement find() method.
+        while($p != $this->ids[$p]) {
+            $p = $this->ids[$p];
+        }
+        return $p;
     }
 
     /**
@@ -37,6 +47,6 @@ class QuickUnion extends UnionFindAbstract
      */
     public function connected(int $p, int $q): bool
     {
-        // TODO: Implement connected() method.
+        return $this->find($p) === $this->find($p);
     }
 }

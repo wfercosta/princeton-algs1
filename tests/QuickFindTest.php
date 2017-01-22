@@ -27,15 +27,15 @@ class QuickFindTest extends TestCase
         $this->assertTrue($uf->connected(229, 230));
     }
 
-    /**
-     * Performs the test for Medium file data mass.
-     */
-    public function testLarge() {
-        $uf = $this->getTestSetup('largeUF.txt');
-        $this->assertEquals($uf->find(7), $uf->find(2));
-        $this->assertTrue($uf->connected(7, 2));
-        $this->assertTrue($uf->connected(7, 0));
-    }
+//    /**
+//     * Performs the test for Medium file data mass.
+//     */
+//    public function testLarge() {
+//        $uf = $this->getTestSetup('largeUF.txt');
+//        $this->assertEquals($uf->find(7), $uf->find(2));
+//        $this->assertTrue($uf->connected(7, 2));
+//        $this->assertTrue($uf->connected(7, 0));
+//    }
 
     /**
      * @return QuickFind|null
