@@ -20,7 +20,18 @@ class QuickFind extends UnionFindAbstract
      */
     public function union(int $p, int $q)
     {
-        // TODO: Implement union() method.
+        $idp = $this->ids[$p];
+        $idq = $this->ids[$q];
+
+        if ($idp === $idq)
+            return;
+
+        for ($i = 0; $i < count($this->ids); $i++) {
+            if ($this->ids[$i] === $idp)
+                $this->ids[$i] = $idq;
+        }
+
+        $this->count --;
     }
 
     /**
@@ -28,15 +39,17 @@ class QuickFind extends UnionFindAbstract
      */
     public function find(int $p): int
     {
-        // TODO: Implement find() method.
+        return $this->ids[$p];
     }
 
     /**
      * {@inheritdoc}
      */
-    public function connected(int $p, int $q): boolean
+    public function connected(int $p, int $q): bool
     {
-        // TODO: Implement connected() method.
+        if ($this->ids[$p] === $this->ids[$q])
+            return true;
+        return false;
     }
 
 }
